@@ -1,0 +1,137 @@
+body {
+	font-family: Arial, sans-serif;
+	padding: 20px;
+}
+
+h2 {
+	margin-bottom: 10px;
+}
+
+.novo-registro {
+	margin-bottom: 15px;
+	padding: 6px 12px;
+	cursor: pointer;
+	border: none;
+	background-color: #1976d2;
+	color: white;
+	border-radius: 4px;
+}
+
+.novo-registro:hover {
+	background-color: #1565c0;
+}
+
+.table-bairros {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.table-bairros th,
+.table-bairros td {
+	border: 1px dashed #333;
+	padding: 8px;
+	text-align: center;
+	height: 40px;
+}
+
+.table-bairros th {
+	background-color: #f2f2f2;
+}
+
+button.btn-alterar {
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	padding: 6px 10px;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+button.btn-excluir {
+	background-color: #f44336;
+	color: white;
+	border: none;
+	padding: 6px 10px;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+button.btn-alterar:hover {
+	background-color: #45a049;
+}
+
+button.btn-excluir:hover {
+	background-color: #d32f2f;
+}
+
+/* Estilo genérico para modais */
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 999;
+	padding-top: 80px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo do conteúdo do modal */
+.modal-content {
+	background-color: #fff;
+	margin: auto;
+	padding: 20px;
+	border-radius: 8px;
+	width: 300px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	position: relative;
+}
+
+.modal-content h3 {
+	margin-top: 0;
+	text-align: center;
+}
+
+.modal-content input,
+.modal-content select {
+	width: 100%;
+	padding: 8px;
+	margin: 6px 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.modal-content button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.modal-content button:hover {
+	background-color: #45a049;
+}
+
+/* Botões de fechar */
+.fechar-cadastro,
+.fechar-edicao {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+	color: #555;
+}
+
+.fechar-cadastro:hover,
+.fechar-edicao:hover {
+	color: #000;
+}

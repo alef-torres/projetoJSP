@@ -1,0 +1,2 @@
+insert into login (log_codigo, log_usuario, log_senha, log_nivelacesso) values (1,'Alef','12345','1');
+insert into login (log_codigo, log_usuario, log_senha, log_nivelacesso) values (2,'Jean','54321','2');
